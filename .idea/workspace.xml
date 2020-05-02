@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6a56c089-e4b3-4492-becb-fc88f957574f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.rspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rails_dominant_colors.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rails_dominant_colors/version.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rails_dominant_colors.gemspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bIrkqn0J4LG1K6SvzAliFdhBgs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spec" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spec/assets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spec" />
+      <recent name="$PROJECT_DIR$/lib/rails_dominant_colors" />
+    </key>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a56c089-e4b3-4492-becb-fc88f957574f" name="Default Changelist" comment="" />
+      <created>1588330594903</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588330594903</updated>
+      <workItem from="1588330596407" duration="2137000" />
+      <workItem from="1588355509708" duration="25888000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1588333367616">
+      <screen x="-275" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1440.877/-275.-1057.1920.1057@-275.-1057.1920.1057" timestamp="1588333367616" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1588333367615">
+      <screen x="-275" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1440.877/-275.-1057.1920.1057@-275.-1057.1920.1057" timestamp="1588333367615" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1588333367615">
+      <screen x="-275" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1440.877/-275.-1057.1920.1057@-275.-1057.1920.1057" timestamp="1588333367615" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1588333367616">
+      <screen x="-275" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1440.877/-275.-1057.1920.1057@-275.-1057.1920.1057" timestamp="1588333367616" />
+    <state x="538" y="-607" key="VCS.ChangelistChooser" timestamp="1588455862396">
+      <screen x="-275" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="538" y="-607" key="VCS.ChangelistChooser/0.23.1440.877/-275.-1057.1920.1057@-275.-1057.1920.1057" timestamp="1588455862396" />
+    <state x="392" y="-774" width="586" height="490" key="find.popup" timestamp="1588458697868">
+      <screen x="-275" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="392" y="-774" width="586" height="490" key="find.popup/0.23.1440.877/-275.-1057.1920.1057@-275.-1057.1920.1057" timestamp="1588458697868" />
+  </component>
+</project>

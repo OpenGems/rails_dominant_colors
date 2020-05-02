@@ -1,0 +1,28 @@
+Documentation:
+  Enabled: false
+Metrics/LineLength:
+  IgnoredPatterns: ['(\A|\s)#']
+  Max: 120
+Layout/EmptyLineAfterGuardClause:
+  Enabled: false
+Layout/EmptyLinesAroundBlockBody:
+  Enabled: false
+Metrics/MethodLength:
+  Max: 20
+Metrics/BlockLength:
+  Max: 30
+Metrics/AbcSize:
+  Max: 20
+Metrics/CyclomaticComplexity:
+  Max: 20
+Style/RegexpLiteral:
+  EnforcedStyle: percent_r
+Naming/MethodParameterName:
+  AllowedNames:
+    - 'r'
+    - 'g'
+    - 'b'
+    - 'a'
+    - 'h'
+    - 's'
+    - 'l'
