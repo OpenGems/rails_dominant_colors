@@ -1,5 +1,13 @@
 # RailsDominantColors
 
+
+[![Gem Version](https://badge.fury.io/rb/rails_dominant_colors.svg)](https://badge.fury.io/rb/rails_dominant_colors)
+[![Maintainability](https://api.codeclimate.com/v1/badges/83326d81b9112b45768f/maintainability)](https://codeclimate.com/github/OpenGems/rails_dominant_colors/maintainability)
+[![Build Status](https://travis-ci.org/OpenGems/rails_dominant_colors.svg?branch=master)](https://travis-ci.org/OpenGems/rails_dominant_colors)
+[![security](https://hakiri.io/github/OpenGems/rails_dominant_colors/master.svg)](https://hakiri.io/github/OpenGems/rails_dominant_colors/master)
+![Gem](https://img.shields.io/gem/dt/rails_dominant_colors)
+[![Coverage Status](https://coveralls.io/repos/github/OpenGems/rails_dominant_colors/badge.svg?branch=master)](https://coveralls.io/github/OpenGems/rails_dominant_colors?branch=master)
+
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rails_dominant_colors`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 TODO: Delete this and the text above, and describe your gem

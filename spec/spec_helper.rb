@@ -5,7 +5,7 @@ require 'simplecov'
 require 'coveralls'
 
 SimpleCov.start
-# Coveralls.wear!
+Coveralls.wear!
 
 require 'rails_dominant_colors'
 
