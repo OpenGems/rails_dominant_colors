@@ -35,11 +35,24 @@ module RailsDominantColors
     end
 
     def to_hsl_alpha
-      @to_hsl_alpha ||= sort_by_size.map { |x| rgb_to_hsl(x[:r], x[:g], x[:b], x[:a]) }
+      @to_hsl_alpha ||= sort_by_size.map do |x|
+        rgb_to_hsl(
+          x[:r] / 255.0,
+          x[:g] / 255.0,
+          x[:b] / 255.0,
+          x[:a]
+        )
+      end
     end
 
     def to_hsl
-      @to_hsl ||= sort_by_size.map { |x| rgb_to_hsl(x[:r], x[:g], x[:b]) }
+      @to_hsl ||= sort_by_size.map do |x|
+        rgb_to_hsl(
+          x[:r] / 255.0,
+          x[:g] / 255.0,
+          x[:b] / 255.0
+        )
+      end
     end
 
     def to_pct
@@ -107,14 +120,8 @@ module RailsDominantColors
       }
     end
 
-    # FIXME: refactor
     def rgb_to_hsl(r, g, b, a = nil)
-      r /= 255.0
-      g /= 255.0
-      b /= 255.0
-
-      max = [r, g, b].max
-      min = [r, g, b].min
+      min, max = min_max(r, g, b)
 
       l = (max + min) / 2.0
 
@@ -131,6 +138,16 @@ module RailsDominantColors
         h /= 6.0
       end
 
+      format_hsl(h, s, l, a)
+    end
+
+    def min_max(r, g, b)
+      max = [r, g, b].max
+      min = [r, g, b].min
+      [min, max]
+    end
+
+    def format_hsl(h, s, l, a)
       [(h * 360).round, (s * 100).round, (l * 100).round, a].compact
     end
   end

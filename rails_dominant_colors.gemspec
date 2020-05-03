@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = 'Extract the dominant color(s) from an image'
   spec.description   = <<~TEXT
     Extract the dominant color(s) from an image (remote image, locally image, base64 image etc...)
-    Convert to HEX(A), RGB(A), HSL(a)'
+    Convert to HEX(A), RGB(A), HSL(a)
   TEXT
 
   spec.homepage      = 'https://github.com/OpenGems/rails_dominant_colors'
