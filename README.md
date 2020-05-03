@@ -9,7 +9,7 @@
 
 A Ruby gem for extract the dominant color(s) from an image (remote image, locally image, base64 image etc...)
 
-Get HEX(A) colors, RGB(A) colors and HSL(a) colors
+Get HEX(A) color(s), RGB(A) color(s) and HSL(A) color(s)
 
 ## Installation
 
