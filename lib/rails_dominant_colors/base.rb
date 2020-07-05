@@ -13,9 +13,9 @@ module RailsDominantColors
 
     attr_reader(:source, :colors)
 
-    def initialize(source, opts = {})
+    def initialize(source, colors)
       @source = source
-      @colors = opts.fetch(:colors) { 5 }
+      @colors = colors
     end
 
     def to_hex_alpha

@@ -2,12 +2,12 @@
 
 module RailsDominantColors
   class Path < Base
-    def initialize(source, opts = {})
+    def initialize(source, colors)
       raise(EmptySource) if source.nil? || source.empty?
       raise(FileNotFound) unless file_exist?(source)
       raise(NotAnImage) unless file_is_image?(source)
 
-      super(source, opts)
+      super(source, colors)
     end
 
     private

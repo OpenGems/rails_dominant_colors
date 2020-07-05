@@ -7,16 +7,16 @@ require 'rails_dominant_colors/url'
 
 module RailsDominantColors
   class << self
-    def base64(source, opts = {})
-      RailsDominantColors::Base64.new(source, opts)
+    def base64(source, colors = 5)
+      RailsDominantColors::Base64.new(source, colors)
     end
 
-    def url(source, opts = {})
-      RailsDominantColors::Url.new(source, opts)
+    def url(source, colors = 5)
+      RailsDominantColors::Url.new(source, colors)
     end
 
-    def path(source, opts = {})
-      RailsDominantColors::Path.new(source, opts)
+    def path(source, colors = 5)
+      RailsDominantColors::Path.new(source, colors)
     end
   end
 end

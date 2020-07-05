@@ -4,10 +4,10 @@ require 'net/http'
 
 module RailsDominantColors
   class Url < Base
-    def initialize(source, opts = {})
+    def initialize(source, colors)
       raise(EmptySource) if source.nil? || source.empty?
 
-      super(process(source), opts)
+      super(process(source), colors)
     end
 
     def process(source)

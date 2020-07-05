@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rails_dominant_colors (0.1.4)
+    rails_dominant_colors (0.2.0)
       mini_magick (~> 4.10)
 
 GEM

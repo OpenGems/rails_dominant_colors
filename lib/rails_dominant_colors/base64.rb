@@ -4,10 +4,10 @@ require 'base64'
 
 module RailsDominantColors
   class Base64 < Base
-    def initialize(source, opts = {})
+    def initialize(source, colors)
       raise(EmptySource) if source.nil? || source.empty?
 
-      super(process(source), opts)
+      super(process(source), colors)
     end
 
     private
