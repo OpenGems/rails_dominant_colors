@@ -77,19 +77,14 @@ module RailsDominantColors
     end
 
     def execute
-      @execute ||= image.run_command(
-        'convert',
-        image.path,
-        '-format',
-        '%c',
-        '-colors',
-        colors,
-        '-depth',
-        8,
-        '-alpha',
-        'on',
-        'histogram:info:'
-      )
+      @execute ||= MiniMagick.convert do |convert|
+        convert << image.path
+        convert << '-format' << '%c'
+        convert << '-colors' << colors.to_s
+        convert << '-depth' << '8'
+        convert << '-alpha' << 'on'
+        convert << 'histogram:info:'
+      end
     end
 
     def sort_by_size
